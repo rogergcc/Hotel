@@ -15,7 +15,11 @@ class Habitacion_model extends Connect
 
 	public function get_habitacion(){
 		//$query = null;
-		$query = $this->db->query("SELECT * FROM habitacion");
+		$query = $this->db->query("SELECT h.num_habitacion,h.desc_habitacion,th.nomb_habitacion,
+				th.precio_habitacion, th.capacidad_habitacion,eh.nomb_estado
+				FROM habitacion h 
+				INNER JOIN tipo_habitacion th on h.id_tipo=th.id_tipo 
+				INNER JOIN estado_habitacion eh on h.id_estado=eh.id_estado");
 		while ($rows = $query->fetch_assoc()){
 			$this->habitacion[] = $rows;
 		}
