@@ -2,8 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <title>Lista de Habitaciones</title>
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <title>Lista de Usuarios</title>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/materialize.css" media="screen" type="text/css">
